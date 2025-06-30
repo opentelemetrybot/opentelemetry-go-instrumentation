@@ -12,6 +12,8 @@ permissions: read-all
 
 jobs:
   lint-markdown:
+    permissions:
+      issues: write
     runs-on: ubuntu-latest
     steps:
     - name: Checkout Repo
