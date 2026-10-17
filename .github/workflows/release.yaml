@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: read
-      packages: write
+      packages: write # required for pushing to GHCR
     env:
       IMAGE_NAME: autoinstrumentation-go
     steps:
